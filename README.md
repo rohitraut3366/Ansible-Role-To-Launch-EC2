@@ -12,7 +12,16 @@ Role Variables
 --------------
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
-
+## Variables:
+```
+key_name: "Key"
+ami_id: "ami-08e0ca9924195beba"
+instance_type: "t2.micro"
+region: "ap-south-1"
+security_group_name: "ALL Traffic"
+count: "1"
+tags: { "Name":"Instance" }
+```
 Dependencies
 ------------
 
