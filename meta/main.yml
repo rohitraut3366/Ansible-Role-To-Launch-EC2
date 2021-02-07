@@ -1,7 +1,6 @@
 galaxy_info:
   author: Rohit Raut
   description: Launch EC2 instance in AWS-Cloud
-  company: 
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
