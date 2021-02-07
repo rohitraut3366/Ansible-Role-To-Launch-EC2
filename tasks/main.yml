@@ -12,4 +12,3 @@
        count: "{{ count }}"
 
 - meta: refresh_inventory
-
